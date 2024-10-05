@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+}
+main{
+    background-color: green;
+    height: 100vh;
+}
+#conteudo{
+    display: flex;
+    position: relative;
+    top: 20%;
+}
+#maintxt{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 200px;
+    padding: 15px;
+    margin: auto;
+}
+#maintxt > p{
+    padding: 10px;
+}
+button{
+    color: green;
+    border: none;
+    width: 100%;
+    padding: 8px;
+    font-size: 9pt;
+    font-family: Helvetica;
+    border-radius: 5px;
+    background-color: white;
+}
+#imagem{
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    background-color: yellow;
+}
+img{
+    width: 451px;
+    margin-top: -12%;
+    border-radius: 100%;
+}
+footer{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer > p{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 10pt;
+}
+a{
+    text-decoration: none;
+    color: dodgerblue;
+}
